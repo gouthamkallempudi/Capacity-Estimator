@@ -2,7 +2,7 @@
   "name": "capacity-estimator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gouthamkallempudi.github.io/Capacity-Estimator/",
+  "homepage": "https://gouthamkallempudi.github.io/capacity-estimator/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
