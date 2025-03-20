@@ -1,0 +1,17 @@
+{
+    "title": "Instagram Capacity Estimation",
+    "assumptions": [
+      "2 billion monthly active users.",
+      "500 million stories posted per day.",
+      "200 million new posts per day."
+    ],
+    "storage_estimation": {
+      "daily_story_storage": "500M * 2MB = 1PB/day",
+      "daily_post_storage": "200M * 4MB = 800TB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "50 billion interactions (likes, comments, views)",
+      "qps": "50B / 86,400 = ~578,704 QPS"
+    }
+  }
+  

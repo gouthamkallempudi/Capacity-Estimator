@@ -1,0 +1,17 @@
+{
+    "title": "Twitter Capacity Estimation",
+    "assumptions": [
+      "500 million tweets per day.",
+      "Each tweet is ~280 characters (~0.6KB).",
+      "Assume 400 million active users."
+    ],
+    "storage_estimation": {
+      "daily_tweet_storage": "500M * 0.6KB = 300 GB/day",
+      "monthly_tweet_storage": "9 TB/month"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "500M * 10 (likes, retweets, views) = 5B",
+      "qps": "5B / 86,400 = ~57,870 QPS"
+    }
+  }
+  

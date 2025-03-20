@@ -1,0 +1,19 @@
+{
+    "title": "YouTube Capacity Estimation",
+    "assumptions": [
+      "500 hours of video uploaded every minute.",
+      "1,440 minutes in a day.",
+      "Assume 1GB per hour of video.",
+      "Assume 2 billion daily active users (DAUs).",
+      "Each user makes an average of 10 video requests per day."
+    ],
+    "storage_estimation": {
+      "daily_uploads": "500 hours/min * 1,440 min/day = 720,000 hours/day",
+      "daily_storage_needed": "720,000 GB/day = 720 TB/day"
+    },
+    "query_per_second": {
+      "total_video_requests_per_day": "2B * 10 = 20 billion queries/day",
+      "qps": "20B / 86,400 seconds = ~231,500 QPS"
+    }
+  }
+  

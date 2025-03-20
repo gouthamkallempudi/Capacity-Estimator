@@ -1,0 +1,16 @@
+{
+    "title": "Uber Capacity Estimation",
+    "assumptions": [
+      "150 million active riders.",
+      "30 million daily ride requests.",
+      "Each request involves ~10KB of data."
+    ],
+    "storage_estimation": {
+      "daily_request_storage": "30M * 10KB = 300GB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "30 million ride requests",
+      "qps": "30M / 86,400 = ~347 QPS"
+    }
+  }
+  

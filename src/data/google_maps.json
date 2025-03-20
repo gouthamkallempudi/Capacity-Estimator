@@ -1,0 +1,16 @@
+{
+    "title": "Google Maps Capacity Estimation",
+    "assumptions": [
+      "1 billion users per month.",
+      "100 million searches per day.",
+      "Each request returns ~500KB of data."
+    ],
+    "storage_estimation": {
+      "daily_data_transfer": "100M * 500KB = 50 TB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "100 million requests",
+      "qps": "100M / 86,400 = ~1,157 QPS"
+    }
+  }
+  

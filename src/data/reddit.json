@@ -1,0 +1,16 @@
+{
+    "title": "Reddit Capacity Estimation",
+    "assumptions": [
+      "430 million monthly active users.",
+      "Daily new posts: ~1 million.",
+      "Daily comments: ~10 million."
+    ],
+    "storage_estimation": {
+      "daily_post_storage": "1M * 5KB = 5GB/day",
+      "daily_comment_storage": "10M * 2KB = 20GB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "1 billion views/interactions per day",
+      "qps": "1B / 86,400 = ~11,574 QPS"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "title": "TikTok Capacity Estimation",
+    "assumptions": [
+      "1 billion monthly active users.",
+      "100 million videos uploaded per day.",
+      "Each video averages 10MB."
+    ],
+    "storage_estimation": {
+      "daily_video_storage": "100M * 10MB = 1PB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "20 billion video views per day",
+      "qps": "20B / 86,400 = ~231,481 QPS"
+    }
+  }
+  

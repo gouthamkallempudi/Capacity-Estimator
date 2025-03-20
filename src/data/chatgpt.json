@@ -1,0 +1,16 @@
+{
+    "title": "ChatGPT Capacity Estimation",
+    "assumptions": [
+      "50 million active users.",
+      "Each user sends 20 queries per day.",
+      "Average response size: 10KB."
+    ],
+    "storage_estimation": {
+      "daily_conversation_storage": "50M * 20 * 10KB = 10TB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "1 billion queries/day",
+      "qps": "1B / 86,400 = ~11,574 QPS"
+    }
+  }
+  

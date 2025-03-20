@@ -1,0 +1,17 @@
+{
+    "title": "Google Drive Capacity Estimation",
+    "assumptions": [
+      "1 billion active users.",
+      "Each user stores an average of 10GB.",
+      "Assume 100 million daily uploads."
+    ],
+    "storage_estimation": {
+      "total_storage_needed": "1B * 10GB = 10 exabytes",
+      "daily_uploads": "100M * 5MB = 500 TB/day"
+    },
+    "query_per_second": {
+      "total_file_requests_per_day": "500 million requests/day",
+      "qps": "500M / 86,400 = ~5,787 QPS"
+    }
+  }
+  

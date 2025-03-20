@@ -1,0 +1,17 @@
+{
+    "title": "Facebook Capacity Estimation",
+    "assumptions": [
+      "3 billion active users.",
+      "1 billion posts per day.",
+      "5 billion likes/comments per day."
+    ],
+    "storage_estimation": {
+      "daily_post_storage": "1B * 5MB = 5PB/day",
+      "daily_interaction_storage": "5B * 0.5KB = 2.5TB/day"
+    },
+    "query_per_second": {
+      "total_requests_per_day": "50 billion interactions",
+      "qps": "50B / 86,400 = ~578,704 QPS"
+    }
+  }
+  

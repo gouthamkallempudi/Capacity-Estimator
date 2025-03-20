@@ -1,0 +1,19 @@
+{
+    "title": "WhatsApp Capacity Estimation",
+    "assumptions": [
+      "Assume 100 billion messages sent per day.",
+      "Each message is ~1KB on average.",
+      "Assume 30-day retention.",
+      "Assume 2 billion DAUs.",
+      "Each user sends an average of 50 messages per day."
+    ],
+    "storage_estimation": {
+      "total_storage_needed_daily": "100B KB = 100 TB/day",
+      "total_storage_monthly": "3 PB/month"
+    },
+    "query_per_second": {
+      "total_message_requests_per_day": "2B * 50 = 100 billion messages/day",
+      "qps": "100B / 86,400 seconds = ~1.16 million QPS"
+    }
+  }
+  
