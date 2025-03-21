@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/capacity-estimator/static/css/main.7705e9d0.css",
-    "main.js": "/capacity-estimator/static/js/main.aff99797.js",
-    "static/js/453.7bee01b0.chunk.js": "/capacity-estimator/static/js/453.7bee01b0.chunk.js",
-    "index.html": "/capacity-estimator/index.html",
-    "main.7705e9d0.css.map": "/capacity-estimator/static/css/main.7705e9d0.css.map",
-    "main.aff99797.js.map": "/capacity-estimator/static/js/main.aff99797.js.map",
-    "453.7bee01b0.chunk.js.map": "/capacity-estimator/static/js/453.7bee01b0.chunk.js.map"
+    "main.css": "/Capacity-Estimator/static/css/main.7705e9d0.css",
+    "main.js": "/Capacity-Estimator/static/js/main.456a1bd5.js",
+    "static/js/453.7bee01b0.chunk.js": "/Capacity-Estimator/static/js/453.7bee01b0.chunk.js",
+    "index.html": "/Capacity-Estimator/index.html",
+    "main.7705e9d0.css.map": "/Capacity-Estimator/static/css/main.7705e9d0.css.map",
+    "main.456a1bd5.js.map": "/Capacity-Estimator/static/js/main.456a1bd5.js.map",
+    "453.7bee01b0.chunk.js.map": "/Capacity-Estimator/static/js/453.7bee01b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7705e9d0.css",
-    "static/js/main.aff99797.js"
+    "static/js/main.456a1bd5.js"
   ]
 }
